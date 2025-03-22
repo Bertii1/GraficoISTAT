@@ -1,0 +1,76 @@
+/* Importa un font moderno */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2b5797, #00aba9);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+input[type="file"] {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+    margin-top: 15px;
+}
+
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
